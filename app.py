@@ -11,7 +11,7 @@ import gradio as gr
 # ----------------------------- settings -----------------------------
 REPO_URL = "https://github.com/kamilstanuch/AutoCrop-Vertical.git"
 REPO_DIR = os.path.abspath("AutoCrop-Vertical")
-MAX_MINUTES = 10          # reject longer videos (protects free CPU hardware)
+#MAX_MINUTES = 10          # reject longer videos (protects free CPU hardware)
 APP_PASSWORD = os.environ.get("APP_PASSWORD", "")   # optional, set as a Space secret
 APP_USER = os.environ.get("APP_USER", "khan")
 
